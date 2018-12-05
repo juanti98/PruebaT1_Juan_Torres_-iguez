@@ -1,11 +1,24 @@
 @font-face {
 	src: url(".../view/assets/PoiretOne-Regular.ttf");
 }
-
+.mainPane2{
+	-fx-background-color: white;
+}
+.pane2{
+	-fx-background-color: #146b9360;
+}
 .imageTop{
 	-fx-background-image: url("../view/assets/blueforest.jpg");
 }
 
+.buttons2{
+	-fx-background-color: orange;
+	-fx-background-radius: 10.0; 
+}
+
+.buttons2:hover{
+	-fx-background-color: orangered;
+}
 .myProfileLabel{
 	-fx-font-family: "Poiret One";
 	-fx-font-size: 24px;
